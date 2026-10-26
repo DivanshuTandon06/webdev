@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    background-color: aqua;
+    border-style: double;
+    border-color:orange;
+    border-top-color: blueviolet;
+}
+p {
+    text-align: justify;
+    font-size: large;
+    font-weight:bold;
+    font-style: italic;
+    font-width: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: red;
+}
+img {
+    
+    max-width: 500px;
+    height: auto;
+    text-align: center;
+    
+}
+#regards {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large ;
+}
