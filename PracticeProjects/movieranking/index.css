@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 40px;
+}
+.mini-nav{
+  display: flex;
+  background-color: #00bcd4;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+.mini-buttons{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+/* Website logo */
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+/* Link styling */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+/* Homepage content */
+section {
+    padding: 60px 40px;
+}
+
+/* Responsive navbar */
+@media (max-width: 600px) {
+    .navbar {
+        padding: 15px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
