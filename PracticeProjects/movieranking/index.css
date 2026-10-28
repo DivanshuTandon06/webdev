@@ -13,17 +13,29 @@
     background-color: #222;
     padding: 15px 40px;
 }
-.mini-nav{
-  display: flex;
-  background-color: #00bcd4;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 40px;
+.search-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #00b8cc;
+    padding: 20px 40px;
 }
-.mini-buttons{
-  display: flex;
-  list-style: none;
-  gap: 25px;
+
+.search-center {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.search-center input {
+    width: 200px;
+    padding: 3px;
+}
+
+.darkmode-btn {
+    position: absolute;
+    right: 40px;
 }
 
 /* Website logo */
@@ -70,4 +82,43 @@ section {
         flex-wrap: wrap;
         justify-content: center;
     }
+}
+
+.hero{
+    height: 400px;
+   
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+        ), url("images/hero.jpg");
+         background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.hero-content h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.hero-btn {
+    display: inline-block;
+    background-color: #00b8cc;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-btn:hover {
+    background-color: #008c9b;
 }
