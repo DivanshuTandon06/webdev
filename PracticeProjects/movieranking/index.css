@@ -29,15 +29,30 @@
 }
 
 .search-center input {
+    border: none;
     width: 200px;
     padding: 3px;
+    border-radius: 8px;
+}
+.search-center button {
+    border: none;
+    width: 60px;
+    border-radius: 8px;
 }
 
 .darkmode-btn {
+    width: 85px;
+    border: none;
+    border-radius: 8px;
     position: absolute;
     right: 40px;
 }
-
+.language{
+    left: 40px;
+    position: absolute;
+    border-radius: 8px;
+    border: none;
+}
 /* Website logo */
 .logo {
     color: white;
@@ -121,4 +136,31 @@ section {
 
 .hero-btn:hover {
     background-color: #008c9b;
+}
+
+.item-card {
+  width: 260px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.item-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.item-title {
+  font-size: 18px;
+  margin: 8px 0;
+}
+.item-desc {
+  font-size: 14px;
+  color: #555;
 }
